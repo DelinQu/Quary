@@ -1,0 +1,23 @@
+# 
+这是一段注释,将不会被识别    
+sample3.qy 测试样3, 他执行一个简单的条件判断，根据输入的两个变量分别执行求和或者乘积
+#
+int Arr[]=[1,2,3]
+
+input(x)                                        # 输入x，y #   
+input(y)
+int sum=0
+int mul=1
+if (x>0 and y>0):                               # 求和 #
+    forEach a in Arr:
+        sum = sum+a
+    end
+    print(sum)
+else:
+    forEach a in Arr:                           # 求积 #  
+        mul=mul*a
+    end
+    print(mul)
+end
+
+if(x!>y)

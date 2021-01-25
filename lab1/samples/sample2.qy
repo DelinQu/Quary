@@ -1,0 +1,15 @@
+# 
+这是一段注释,将不会被识别    
+sample2.qy 测试样2, 他是一个简单的forEach循环，用于计算数组的乘积
+#
+
+int Arr[]=[1,2,3]           # 一个数组结构 #
+int mul=1
+
+forEach a in Arr:
+    mul = mul*a
+end
+
+print(mul)              # output factorial of x #
+
+

@@ -1,0 +1,18 @@
+read x;
+read y;
+S:=x*y;
+
+if x < y then 
+    cur := x;
+    x := y;
+    y := cur
+end;
+
+repeat
+    cur := x - (x / y)*y;
+    x := y;
+    y := cur
+until y = 0;
+
+write x;
+write (S / x)
